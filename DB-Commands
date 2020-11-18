@@ -1,0 +1,49 @@
+# to see all database available in database server 
+show databases:
+
+# to create database
+create database <db-name>;
+
+# to delete database
+drop database <db-name>;
+
+# to use database
+use <database-name>;
+
+# to see current database
+select database();
+
+#### TABLE
+## DAta Type
+# Numeric type
+INT, SMALLINT, TINYINT' MEDIUMINT, BIGINT, DECIMAL, NUMERIC, FLOAT, DOUBLE, BIT
+
+# String
+CHAR, VARCHAR, BINARY, VARBINARY, BLOB, TINYBLOB, MEDIUMBLOB, LONGBLOB, TEXT, TINYTEXT, MEDIUMTEXT, LONGTEXT, ENUM
+
+#DAte types
+DATE, DATETIME, TIMESTAMP, TIME, YEAR
+
+# CREATE TABLE
+CREATE TABLE USER_TABLE
+  (
+    username varchar(20),
+    matchingname varchar(20),
+    hit int
+  );
+  
+# to see table
+  show tables;
+  
+# to see header/column in table
+  show columns from <table-name>;
+  desc <table-name>;
+  
+# delete table
+  drop table <table-name>;
+  
+  
+  
+  
+  
+  
