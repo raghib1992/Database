@@ -1,0 +1,7 @@
+# update the data in table
+UPDATE <table-name> SET <column-name>='values' WHERE <columnname>=olddata;
+
+# to delete data
+DELETE FROM <table-name> WHERE <column-name>='value';
+
+
