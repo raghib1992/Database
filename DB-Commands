@@ -43,7 +43,20 @@ CREATE TABLE USER_TABLE
   drop table <table-name>;
   
   
-  
+# TO not null value
+CREATE TABLE <Table-Name> ( cloumn1 VARCHAR(20) NOT NULL, column2 INT NOT NULL );
+
+# Default value
+CREATE TABLE <Table-name> ( name VARCHAR(20) DEFAULT 'unnamed', age INT DEFAULT 99 );
+
+# Key
+CREATE TABLE <Table-Name>(cat_id INT NOT NULL, name VARCHAR(20) NOT NULL, age INT NOT NULL DEFAULT 99, PRIMARY KEY (cat_id));
+
+# PRIMARY KEY AUTO INCREMENT
+CREATE TABLE <Table-Name>(cat_id INT NOT NULL AUTO_INCREMENT, name VARCHAR(20) NOT NULL, age INT NOT NULL DEFAULT 99, PRIMARY KEY (cat_id));
+
+
+
   
   
   
