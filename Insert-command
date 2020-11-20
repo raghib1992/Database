@@ -1,2 +1,10 @@
 # Insert data into table
 INSERT INTO Cats(name, age) VALUES ('Bhikar",  7);
+insert into Cats(name, age) values( 'Nahid', 35), ('Nilu', 32), ('roma', 28);
+
+# to view table data
+SELECT * FROM <Table-name>;
+
+# to check warnings
+SHOW WARNINGS;
+
