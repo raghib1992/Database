@@ -1,0 +1,2 @@
+# Insert data into table
+INSERT INTO Cats(name, age) VALUES ('Bhikar",  7);
