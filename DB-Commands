@@ -55,6 +55,9 @@ CREATE TABLE <Table-Name>(cat_id INT NOT NULL, name VARCHAR(20) NOT NULL, age IN
 # PRIMARY KEY AUTO INCREMENT
 CREATE TABLE <Table-Name>(cat_id INT NOT NULL AUTO_INCREMENT, name VARCHAR(20) NOT NULL, age INT NOT NULL DEFAULT 99, PRIMARY KEY (cat_id));
 
+# Aliases
+SELECT Column-name AS Aliase FROM table-name;
+SELECT name AS 'cat name', breed AS 'kitty breed' FROM cats;
 
 
   
